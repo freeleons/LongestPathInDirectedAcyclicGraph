@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Main {
-    public static <List> void main(String[] args) {
+    public static void main(String[] args) {
 
         Vertex vertex0 = new Vertex(0);
         Vertex vertex1 = new Vertex(1);
