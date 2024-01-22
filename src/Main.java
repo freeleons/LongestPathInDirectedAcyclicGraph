@@ -74,7 +74,7 @@ public class Main {
     }
 
     // The function to find the longest path from a given starting vertex
-    public static int findLongestPath(List<Vertex> vertices, long startVertexId) {
+    private static int findLongestPath(List<Vertex> vertices, long startVertexId) {
         Stack<Vertex> stack = new Stack<>();
         Set<Long> visited = new HashSet<>();
 
